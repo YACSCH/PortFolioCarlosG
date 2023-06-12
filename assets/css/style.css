@@ -8,17 +8,19 @@ body {
     background-image: linear-gradient(135deg, #000000, #060606, #121212, #181818, #242424, #303030, #363636);
     background-size: 500%;
     animation: fanimado 20s linear infinite;
+    flex-direction: column;
 }
 
-@keyframes fanimado{
-    0%{
-        background-position: 0% 50%;        
+@keyframes fanimado {
+    0% {
+        background-position: 0% 50%;
     }
 
-    50%{
+    50% {
         background-position: 50% 100%;
     }
-    100%{
+
+    100% {
         background-position: 0% 50%;
     }
 }
@@ -34,6 +36,7 @@ body {
 header {
     position: fixed;
     width: 100%;
+    height: auto;
     background: transparent;
     backdrop-filter: blur(20px);
     display: flex;
@@ -150,11 +153,11 @@ header {
     display: none;
 }
 
-   
+
 /* Estilo Inicio */
 main {
-    height: 100vh;
     display: flex;
+    flex-direction: column;
 }
 
 .container-home {
@@ -164,6 +167,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .home {
@@ -219,6 +223,17 @@ main {
     transform: scale(1.5);
 }
 
+/* Seccion About Me */
+.container-about-me {
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    align-items: center;
+    /* Center elements horizontally */
+    margin-top: 20px;
+    /* Adjust margin as needed */
+}
+
 /* Seccion responsiva a 1030px */
 
 @media screen and (max-width:1030px) {
@@ -262,12 +277,9 @@ main {
         margin-bottom: 4px;
     }
 
-    main {
-        align-items: start;
-    }
-
     .home {
         height: auto;
+        width: 90%;
 
     }
 
