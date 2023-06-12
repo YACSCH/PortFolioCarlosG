@@ -36,13 +36,12 @@ body {
 header {
     position: fixed;
     width: 100%;
-    height: auto;
     background: transparent;
     backdrop-filter: blur(20px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 4rem 1rem 4rem;
+    padding: 0rem 4rem 0rem 4rem;
 }
 
 .name {
@@ -161,7 +160,7 @@ main {
 }
 
 .container-home {
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
     height: auto;
     display: flex;
@@ -226,12 +225,10 @@ main {
 /* Seccion About Me */
 .container-about-me {
     display: flex;
-    flex-direction: column;
-    /* Stack elements vertically */
     align-items: center;
-    /* Center elements horizontally */
-    margin-top: 20px;
-    /* Adjust margin as needed */
+    margin-top: 150px;
+    width: 100%;
+
 }
 
 /* Seccion responsiva a 1030px */
