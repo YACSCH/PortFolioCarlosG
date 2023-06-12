@@ -205,10 +205,15 @@ main {
     font-size: 30px;
 }
 
+
 .text-home p {
     font-size: 20px;
     text-align: justify;
     font-weight: lighter;
+}
+
+.social {
+    display: flex;
 }
 
 .socials a ion-icon {
@@ -223,13 +228,6 @@ main {
 }
 
 /* Seccion About Me */
-.container-about-me {
-    display: flex;
-    align-items: center;
-    margin-top: 150px;
-    width: 100%;
-
-}
 
 /* Seccion responsiva a 1030px */
 
