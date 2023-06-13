@@ -228,6 +228,23 @@ main {
 }
 
 /* Seccion About Me */
+.container-about-me {
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: rgb(43, 44, 44);
+    color: var(--tx);
+}
+
+.about-me {
+    margin: 0;
+    width: 80%;
+    display: flex;
+   
+    
+}
 
 /* Seccion responsiva a 1030px */
 
